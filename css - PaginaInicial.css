@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900;&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b4b4b4;
+    background: url('fundo_1.jpg') no-repeat;
+    text-align: center;
+    min-height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4   );
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 243vh;
+    z-index: -1;
+}
+
+
+/*Parte do titulo e os menu*/
+
+.topo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    }
+    .topo h1{
+        color: red;
+        margin-top: 35px;
+        font-size: 45px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .logo{
+    display: flex;
+    flex: 20%;
+     /*border: 1px solid red;*/
+    margin-left: 10%;
+    margin-top: 2%;
+    }
+    .menu{
+    flex: 65%;
+     /*border: 1px solid blue;*/
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 4%;
+    }
+    .menu a{
+        font-size: 20px;
+    text-decoration: none;
+    padding: 0 15px;
+    margin-right: 45px;
+    color: rgb(255, 255, 255);  
+    font-family: 'Oswald', sans-serif;
+    }
+    .menu a:hover{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    }
+
+
+
+
+    .titulo h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 70px;
+        font-size:35px;
+        color: white;
+    }
+
+    table {
+        width:99%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    /* Estilo para o cabeçalho da tabela */
+    th {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 20px;
+        text-align: left;
+        border: 2px solid #ffffff;
+    }
+    
+    /* Estilo para as células da tabela */
+    td {
+        border: 2px solid #ffffff, padding 10px;
+        table-layout: fixed;
+        border: 2px solid #ffffff;
+    }
+    
+    tr:nth-child(odd) {
+        background-color: #000000 padding 15px;
+    }
+    
+    
+    
+    /* Estilo para links nas células da tabela */
+    td a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+    }   
+
+
+    #btn {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #btn a {
+        margin-top: 40px;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: rgba(0, 153, 255, 0.727);
+        padding: 18px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+
+    .sobre_empresa {
+        margin-top: 40px;
+    }
+
+
+    hr {
+        height: 1px; 
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+        border: none;
+        
+        margin: 20px 0; 
+    }
+
+
+    .footer-content p{
+        color: white; 
+        margin-bottom: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
+    }
+
+    .footer-content a{
+        color: white; 
+        margin: 10px;
+        margin-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
+    }
+
+    
